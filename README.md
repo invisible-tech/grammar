@@ -1,22 +1,22 @@
-# @invisible/common-rules
+# @invisible/grammar
 
-[![CircleCI](https://circleci.com/gh/invisible-tech/common-rules/tree/master.svg?style=svg)](https://circleci.com/gh/invisible-tech/common-rules/tree/master)
+[![CircleCI](https://circleci.com/gh/invisible-tech/grammar/tree/master.svg?style=svg)](https://circleci.com/gh/invisible-tech/grammar/tree/master)
 
-> Invisible Technologies common parsers rules package. 
+Invisible Technologies common grammar package. 
 
 # Install
 
 ```
-yarn add @invisible/common-rules
+yarn add @invisible/grammar
 # or
-npm install @invisible/common-rules
+npm install @invisible/grammar
 ```
 
 # Usage
 
-Import parsers rules using `pegjs-import` syntax.
+Import grammar using `pegjs-import` syntax.
 
 ```js
 // foo.pegjs
-@import "@invisible/common-rules/eol.pegjs" as EOL
+@import "@invisible/grammar/eol.pegjs" as EOL
 ```
