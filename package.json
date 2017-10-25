@@ -1,11 +1,15 @@
 {
-  "name": "@invisible/common-rules",
+  "name": "@invisible/grammar",
   "version": "0.0.1",
-  "description": "Invisible common parser rules",
+  "description": "Invisible pegjs common grammars",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "posttest": "assert-version-bump"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@invisible/publish": "^1.1.10"
+  }
 }
